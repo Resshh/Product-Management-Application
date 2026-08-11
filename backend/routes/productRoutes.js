@@ -66,7 +66,7 @@ router.put("/:id", async (req, res) => {
             return res.status(404).json({
                 message: "Product not found"
             });
-        }https://desktop.postman.com/?desktopVersion=11.99.0&userId=42744344&teamId=13775287&region=us
+        }
 
         res.status(200).json({
             message: "Product Updated Successfully",

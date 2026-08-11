@@ -13,7 +13,7 @@ db();
 app.use(cors());
 
 app.use(express.json());
-
+app.disable("x-powered-by");
 app.use("/products", productRoutes);
 
 const PORT = process.env.PORT || 3000;
