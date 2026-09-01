@@ -10,7 +10,6 @@ function Navbar1() {
 
         <Link to="/">Home</Link>
 
-        <Link to="/add">Add Product</Link>
 
       </div>
 
